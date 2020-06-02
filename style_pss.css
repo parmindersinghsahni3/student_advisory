@@ -1,0 +1,207 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+  
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  margin-left:50px;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.logo{
+	
+	border:1px solid red;
+	display:inline-block;
+}
+
+#logo_right{
+	float:right;
+}
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+body{
+
+margin:0;
+paddding:0;
+}
+#top{
+width:100%
+height:40px;
+
+background:#191970;
+color:white;
+margin:0 auto;
+}
+#top p{
+	margin: 0 auto;
+	padding-top:5px;
+	margin-left:50px; 
+}
+#header{
+	width:1550px;
+	height:130px;
+	border-top:2px solid gray;
+	margin-top:3px;
+	margin-left:auto;
+	margin-right:auto;
+}
+<!--
+.navbar{
+	width:1550px;
+	height:45px;
+	background:#777;
+	margin-left:auto;
+	margin-right:auto;
+}
+-->
+
+.post_body{
+	
+	clear:both;
+	
+	margin :0 auto;
+	width:590px;
+	float:left;
+	height:600px;
+	background:white;
+	border-right:2px solid #708090;
+	margin-left:50px;
+	
+}
+
+#sidebar{
+	width:300px;
+	height:600px;
+	float:right;
+	background:gray;
+	margin-right:10px;
+}
+#xy{
+background: url('image/uwin.jpg')no repeat; 	
+}
+
+.foot{
+	width:1550px;
+	height:50px;
+	background:black;
+	clear:both;
+	margin-left:10px;
+}
+
+#menu ul{ 
+margin:0;
+line-height:2em;
+padding-top:5px;
+padding:0;
+}
+
+#menu ul li{ 
+list-style:none;
+display:inline;
+margin:10px; 
+width:60px;
+	background-color: white;
+}
+
+#menu ul li a:link{ 
+
+list-style:none;
+color:white;
+display:inline;
+margin:10px; 
+paddding:3px;
+text-decoration:none; 
+	
+}
+#menu ul li a:hover{ 
+color:#32CD32;
+ 
+display:inline;
+
+text-decoration:underline; 
+	
+}
+#top{
+width:100%
+height:20px;
+color:white;
+background:#19177;
+}
+
+.box {
+width:1000px;
+position:absolute;
+
+}
+.box img{
+height:400px;
+width:900px;
+
+
+}
+#rss{
+	margin-left:10px;
+}
+
+
+.mybox{
+margin:auto;	
+	
+	
+}
+
